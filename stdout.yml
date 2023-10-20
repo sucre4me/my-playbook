@@ -1,0 +1,13 @@
+
+- name: testing output
+  hosts: all
+  become: true
+  become_method: sudo
+  tasks:
+    
+   - name: sending output to a file
+     command: cat testing.txt chdir=/var
+     register: cmmd
+   
+   - debug:
+       var: cmmd.stdout_lines

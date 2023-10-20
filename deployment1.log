@@ -1,0 +1,14 @@
+192.168.56.120 | CHANGED | rc=0 >>
+NAME            MAJ:MIN RM  SIZE RO TYPE MOUNTPOINT
+sda               8:0    0    8G  0 disk 
+├─sda1            8:1    0    1G  0 part /boot
+└─sda2            8:2    0    7G  0 part 
+  ├─centos-root 253:0    0  6.2G  0 lvm  /
+  └─centos-swap 253:1    0  820M  0 lvm  [SWAP]
+sdb               8:16   0    8G  0 disk 
+└─sdb1            8:17   0    4G  0 part /lab
+sdc               8:32   0    8G  0 disk 
+└─sdc1            8:33   0    8G  0 part 
+sdd               8:48   0    8G  0 disk 
+└─sdd1            8:49   0    8G  0 part 
+sr0              11:0    1 1024M  0 rom  

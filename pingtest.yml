@@ -1,0 +1,7 @@
+- name: ping test
+  hosts: all
+  become: true
+  become_method: sudo
+  tasks:
+    - name: ping test
+      ping:
